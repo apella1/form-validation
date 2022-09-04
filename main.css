@@ -1,0 +1,39 @@
+* { 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin: 3rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.form { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-control { 
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.form-control small { 
+    color: rgb(180, 21, 21);
+    visibility: hidden;
+}
+
+.form button { 
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
